@@ -56,8 +56,8 @@ server {
         expires 5m;
     }         
 
-    location /api/ {
-        proxy_pass $SERVER_URL/;
-    }
+    # location /api/ {
+    #     proxy_pass $SERVER_URL/;
+    # }
 }
 
